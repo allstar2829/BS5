@@ -1,0 +1,132 @@
+.goal{
+    font-size: 14px;
+}
+
+#middle-navbarNav{
+    ul{
+        letter-spacing: 2px
+    }
+    li{
+        a{
+            margin-right: 40px;
+        }
+    }
+    
+}
+
+.login-line{
+    display: block;
+    width: 132px;
+    height: 1px;
+    background-color:#E8E8DB;
+}
+.active{
+    border-bottom: 3px solid #FFDF65;
+    font-weight:bold;
+}
+.tooltip-bg{
+    background-color:#494846;
+    color:#FFDF65;
+}
+.border-btn{
+    border: 1px solid #858377;
+}
+.hover-main:hover{
+    background-color:#FF785E;
+    color: #fff;
+    border:1.067px solid #FF785E;
+}
+
+.hover-sec:hover{
+    background-color:#FFDF65;
+    border:1.067px solid #FFDF65;
+}
+
+.hover-icon:hover{
+    color: #FF785E;
+}
+
+.photo-title{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.photo-content{
+    text-align: justify;
+    line-height: 32px;
+}
+
+.form-title{
+    img{
+        margin: 0 auto;
+    }
+    .form-title-p{
+        font-size: 24px;
+        position: relative; 
+        text-align: center;
+        &::before{
+            content: "";
+            display: block;
+            width: 293px;
+            height: 3px;
+            background-color: #FFDF65;
+            position: absolute;
+            top:15px;
+            left:0;
+        };
+        &::after{
+            content: "";
+            display: block;
+            width: 293px;
+            height: 3px;
+            background-color: #FFDF65;
+            position: absolute;
+            top:15px;
+            right:0;
+        }
+    }
+    
+};
+
+.op-bg{
+    background-color: #F7F7F7;
+}
+
+.sponsor-btn{
+    // display:block;
+    font-size: 20px;
+    button{
+        width: 176px;
+        letter-spacing: 2px;
+        color: #636057;
+    }
+}
+
+.icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #858377;
+}
+.bg-1{
+    background-color:#E8E8DB;
+    color:#858377
+}
+
+.bg-2{
+    background-color:#858377;
+    color:#fff;
+}
+
+
+footer{
+    width: 100%;
+    height: 85px;
+    background: #494846;
+    p{
+        color: #FFFFFF;
+        letter-spacing: 0.2px;
+        line-height:85px;
+        text-align:center;
+    }
+}
